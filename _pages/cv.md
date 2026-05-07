@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Individual Interdisciplinary Studies (Mathematics and Statistics) at the University of Manitoba, 2026
+* M.S. Mathematics at the University of Manitoba, 2020
+* M.S. Mathematics and Statistics at the Queen's University, 2016
+* B.S. Mathematics at Oxford Brookes University, 2015
 
 Work experience
 ======
