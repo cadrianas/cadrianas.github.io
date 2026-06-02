@@ -1,164 +1,87 @@
 cv:
   name: Adriana-Stefania Ciupeanu
-  label: Postdoctoral Fellow, Mathematical Epidemiology & Data Science
+  label: Postdoctoral Fellow in Mathematical Epidemiology
+  location: Winnipeg, MB, Canada
   email: cadrianas@gmail.com
-  phone: "+1 204 887 5030"
-  location: Winnipeg, Manitoba, Canada
-  image: ""
-  summary: Mathematical epidemiologist and statistician specializing in Bayesian inference, compartmental modelling, and temporal network analysis. Bridge postdoctoral fellow with expertise in translating mathematical models to inform public health decision-making.
-
-  social_networks:
-    - network: GitHub
-      username: cadrianas
-    - network: LinkedIn
-      username: adriana-stefania-ciupeanu-63394154
-    - network: ORCID
-      username: "0000-0003-0833-2176"
-
-  address:
-    street: 16D-915 Corydon Avenue
-    city: Winnipeg
-    region: Manitoba
-    countryCode: CA
+  phone_number: "+1 204 887 5030"
+  website: https://cadrianas.github.io
 
   sections:
     Education:
       - institution: University of Manitoba
-        location: Winnipeg, Manitoba, Canada
-        url: https://umanitoba.ca/
         area: Interdisciplinary Individual Studies (Mathematics and Statistics)
         studyType: PhD
-        start_date: 2019
-        end_date: 2026
+        startDate: 2019-09
+        endDate: 2026-02
+        location: Winnipeg, MB, Canada
         highlights:
           - "Supervisors: Dr. Julien Arino and Dr. Saman Muthukumarana"
           - "Thesis: Mathematical and statistical modelling during a pandemic event"
 
       - institution: University of Manitoba
-        location: Winnipeg, Manitoba, Canada
         area: Mathematics
         studyType: Master of Science
-        start_date: 2016
-        end_date: 2019
+        startDate: 2016-09
+        endDate: 2019-08
+        location: Winnipeg, MB, Canada
 
       - institution: Queen's University
-        location: Kingston, Ontario, Canada
         area: Mathematics and Statistics
-        studyType: Master of Science (Course-Based)
-        start_date: 2015
-        end_date: 2016
+        studyType: Master of Science
+        startDate: 2015-09
+        endDate: 2016-08
+        location: Kingston, ON, Canada
 
       - institution: Oxford Brookes University
-        location: Oxford, Oxfordshire, UK
         area: Mathematics
         studyType: Bachelor of Science (Honours)
-        start_date: 2012
-        end_date: 2015
+        startDate: 2012-09
+        endDate: 2015-05
+        location: Oxford, UK
 
     Experience:
-      - company: Department of Mathematics, University of Manitoba
+      - company: University of Manitoba
         position: Postdoctoral Fellow
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2026-05
-        end_date: 2026-10
-        summary: Continuation of doctoral research on mathematical and statistical modelling of infectious disease dynamics.
+        location: Winnipeg, MB, Canada
+        startDate: 2026-05
+        endDate: 2026-10
         highlights:
+          - "Department of Mathematics"
           - "Supervisor: Dr. Julien Arino"
-          - "Focus on Bayesian inference and compartmental modelling"
+          - "Research: Mathematical and statistical modelling of infectious disease dynamics"
 
-    Teaching:
-      - company: Extended Education, University of Manitoba
+      - company: University of Manitoba
         position: Instructor of Record
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2025-09
-        end_date: 2025-12
-        summary: Pre-Calculus (MSKL 0100) - Sole instructor responsible for all course delivery, assessment design, grading, and student communication.
+        location: Winnipeg, MB, Canada
+        startDate: 2025-09
+        endDate: 2025-12
         highlights:
+          - "Pre-Calculus (MSKL 0100)"
           - "Nominated for Extended Education Instructor Excellence Award (2026)"
 
       - company: University of Manitoba
-        position: Workshop Instructor
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2025-09
-        end_date: 2025-12
-        summary: Calculus 1 (MATH 1500) - Developed weekly workshop materials aligned with lecture topics and led problem-solving sessions.
-
-      - company: University of Manitoba
         position: Lab Coordinator
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2023-09
-        end_date: 2026-04
-        summary: Calculus 2 (MATH 1700) and Linear Algebra 1 (MATH 1300) - Coordinated laboratory sections, managed TA duties, oversaw grading quality assurance.
+        location: Winnipeg, MB, Canada
+        startDate: 2023-09
+        endDate: 2026-04
         highlights:
-          - "Designed multiple quiz versions ensuring academic integrity"
-          - "Managed scheduling across multiple lab groups"
+          - "Calculus 2 (MATH 1700) and Linear Algebra 1 (MATH 1300)"
+          - "Coordinated laboratory sections across multiple groups"
+          - "Managed TA duties and scheduling"
+          - "Oversaw grading quality assurance and designed quiz versions"
 
       - company: University of Manitoba
         position: Teaching Assistant
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2016
-        end_date: 2025
-        summary: Tutorial instruction, marking, and guest lectures across 10+ mathematics courses.
+        location: Winnipeg, MB, Canada
+        startDate: 2016
+        endDate: 2025
         highlights:
-          - "Courses: MATH 1018, 1210, 1300, 1500, 1520, 1700, 2090, 2140, 2740, 1524"
-          - "Guest lectures on graph theory and network science (MATH 2740)"
+          - "Tutorials across 10+ mathematics courses"
           - "Marking from first-year calculus to Mathematics Analysis for Engineering"
-
-      - company: International College of Manitoba
-        position: Teaching Assistant
-        location: Winnipeg, Manitoba, Canada
-        start_date: 2018
-        end_date: 2025
-        summary: Tutorial instruction in mathematics courses.
-        highlights:
-          - "Courses: MATH 1010, 1300, 1524, 1240, 1210, STAT 1000"
-
-    Awards:
-      - title: Faculty of Graduate Studies Travel Award
-        date: 2023
-        awarder: University of Manitoba
-
-      - title: Faculty of Graduate Studies Travel Award
-        date: 2022
-
-      - title: Graduate Enhancement of Tri-Agency Stipends Program
-        date: 2023
-        awarder: University of Manitoba
-
-      - title: Visual and Automated Disease Analytics (VADA) Graduate Training Program
-        date: 2019-2021
-        awarder: University of Manitoba
-
-      - title: International Graduate Student Entrance Scholarship
-        date: 2020
-        awarder: University of Manitoba
-
-      - title: International Graduate Student Scholarship
-        date: 2018
-        awarder: University of Manitoba
-
-      - title: International Graduate Student Entrance Scholarship
-        date: 2017
-        awarder: University of Manitoba
-
-      - title: Dr. Narain D. Gupta Scholarship in Mathematics
-        date: 2017
-        awarder: University of Manitoba
-
-      - title: Queen's Graduate Awards
-        date: 2016
-        awarder: Queen's University
-
-      - title: IMA Prize for Academic Excellence in Mathematics
-        date: 2015
-        awarder: Oxford Brookes University
-
-      - title: Department of Mechanical Engineering and Mathematical Sciences Student Prize
-        date: 2015
-        awarder: Oxford Brookes University
+          - "Guest lectures on graph theory and network science"
 
     Publications:
-      - title: Mathematical Modeling of the Dynamics of COVID-19 Variants of Concern - Asymptotic and Finite-Time Perspectives
+      - title: "Mathematical Modeling of the Dynamics of COVID-19 Variants of Concern: Asymptotic and Finite-Time Perspectives"
         authors:
           - Adriana-Stefania Ciupeanu
           - Marie Varughese
@@ -167,12 +90,11 @@ cv:
           - Qun Cheng
           - Michael Y. Li
         publisher: Infectious Disease Modelling
-        releaseDate: 2022
-        volume: 7
-        issue: 4
-        pages: 581-596
+        releaseDate: 2022-11
+        volume: "7"
+        issue: "4"
+        pages: "581-596"
         url: https://pubmed.ncbi.nlm.nih.gov/36097594/
-        summary: Develops a mathematical modelling framework for competing COVID-19 variants of concern
 
       - title: "Investigating Air Travel Network Changes in Canada, USA and Europe during COVID-19 Using Open Source Data"
         authors:
@@ -180,12 +102,11 @@ cv:
           - Ashani Wickramasinghe
           - Saman Muthukumarana
           - Julien Arino
-        publisher: Research Square
-        releaseDate: 2023
+        publisher: Research Square (Preprint)
+        releaseDate: 2023-06
         url: https://europepmc.org/article/PPR/PPR591103
-        summary: Analyses evolution of global air transportation network during COVID-19 pandemic
 
-      - title: Investigation of Global and Local COVID-19 Importation Risks
+      - title: "Investigation of Global and Local COVID-19 Importation Risks"
         authors:
           - Julien Arino
           - Stéphane Portet
@@ -195,68 +116,51 @@ cv:
         releaseDate: 2020
 
     Skills:
-      - name: Statistical Methods
-        level: Expert
-        keywords: "Bayesian inference, MCMC, Uncertainty quantification, Sensitivity analysis (PRCC, eFAST)"
+      - label: Statistical Methods
+        details: "Bayesian inference, MCMC, Uncertainty quantification, Sensitivity analysis (PRCC, eFAST)"
 
-      - name: Mathematical Modelling
-        level: Expert
-        keywords: "ODE compartmental models, CTMC simulations, Metapopulation models"
+      - label: Mathematical Modelling
+        details: "ODE compartmental models, CTMC simulations, Metapopulation models"
 
-      - name: Programming Languages
-        level: Advanced
-        keywords: "Python, R, Stan, LaTeX"
+      - label: Programming
+        details: "Python, R, Stan, LaTeX"
 
-      - name: Data Analysis & Visualization
-        level: Advanced
-        keywords: "Network analysis, Time series analysis, Temporal networks"
+      - label: Data Analysis
+        details: "Network analysis, Time series analysis, Temporal networks"
 
-      - name: Software Development
-        level: Intermediate
-        keywords: "Git, GitHub, Open-source packages, Reproducible research"
+    Awards:
+      - title: Faculty of Graduate Studies Travel Award
+        date: 2023
+        issuer: University of Manitoba
+
+      - title: Faculty of Graduate Studies Travel Award
+        date: 2022
+        issuer: University of Manitoba
+
+      - title: Graduate Enhancement of Tri-Agency Stipends Program
+        date: 2023
+        issuer: University of Manitoba
+
+      - title: International Graduate Student Entrance Scholarship
+        date: 2020
+        issuer: University of Manitoba
+
+      - title: IMA Prize for Academic Excellence in Mathematics
+        date: 2015
+        issuer: Oxford Brookes University
 
     Service:
-      - name: Hiring Committee
-        organization: Mathematics Department, University of Manitoba
-        position: Committee Member
-        startDate: 2024
-        endDate: 2025
+      - organization: Mathematics Department, University of Manitoba
+        position: Hiring Committee Member
+        startDate: 2024-09
+        endDate: 2025-06
 
-      - name: Graduate Student Representative
-        organization: Department of Mathematics, University of Manitoba
-        position: Representative
-        startDate: 2018
-        endDate: 2019
+      - organization: University of Manitoba
+        position: Graduate Student Representative
+        startDate: 2018-09
+        endDate: 2019-06
 
-      - name: Graduate Student Association
-        organization: University of Manitoba
+      - organization: University of Manitoba Graduate Student Association
         position: Committee Member and Department Councillor
-        startDate: 2018
-        endDate: 2019
-
-      - name: Proceedings of Manitoba's Undergraduate Science and Engineering Research
-        organization: University of Manitoba
-        position: Production/Layout Editor
-        startDate: 2018
-        endDate: 2018
-
-    Volunteering:
-      - organization: Canadian Open Mathematics Challenge (COMC)
-        position: Marker
-        startDate: 2017
-        endDate: 2018
-
-      - organization: Manitoba Math Contest
-        position: Marker
-        startDate: 2018
-        endDate: 2018
-
-      - organization: Canadian Math Kangaroo Contest
-        position: Invigilator
-        startDate: 2018
-        endDate: 2018
-
-      - organization: Mathematical Congress of the Americas
-        position: Volunteer
-        startDate: 2017
-        endDate: 2017
+        startDate: 2018-09
+        endDate: 2019-06
