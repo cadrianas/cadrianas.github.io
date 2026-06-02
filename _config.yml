@@ -192,7 +192,7 @@ collections:
     output: true
   projects:
     output: true
-  teachings:
+  teaching:
     output: true
 
 # -----------------------------------------------------------------------------

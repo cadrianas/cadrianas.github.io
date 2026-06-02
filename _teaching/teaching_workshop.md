@@ -1,4 +1,5 @@
 ---
+importance: 1
 layout: course
 title: Workshop Instructor
 description: Mathematics workshop instructor facilitating active learning and problem-solving sessions for undergraduate students for Intro to Calculus course
@@ -8,6 +9,7 @@ term: Fall
 location: University of Manitoba, Department of Mathematics
 course_id: workshop-instructor
 ---
+importance: 1
 
 ## Role Overview
 

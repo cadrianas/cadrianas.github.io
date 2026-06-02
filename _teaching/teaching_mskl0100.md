@@ -1,4 +1,5 @@
 ---
+importance: 1
 layout: course
 title: MSKL 0100 Pre-calculus
 description: An introductory course in pre-calculus mathematics, covering functions, polynomials, trigonometry, and exponential and logarithmic functions. This course is designed for students preparing for calculus and emphasizes conceptual understanding alongside computational skills.
@@ -8,6 +9,7 @@ term: Fall
 location: University of Manitoba, Extended Education
 course_id: mskl-0100-pre-calculus
 ---
+importance: 1
 
 ## Course Overview
 
