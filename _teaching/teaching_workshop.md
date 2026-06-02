@@ -7,6 +7,7 @@ year: 2025
 term: Fall
 location: University of Manitoba, Department of Mathematics
 course_id: workshop-instructor
+importance: 1
 ---
 
 ## Role Overview

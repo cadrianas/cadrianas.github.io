@@ -7,6 +7,7 @@ year: 2018
 term: Multiple terms (2018-2025)
 location: University of Manitoba, Department of Mathematics
 course_id: teaching-assistant
+importance: 1
 ---
 
 ## Role Overview

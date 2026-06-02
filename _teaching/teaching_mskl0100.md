@@ -7,6 +7,7 @@ year: 2025
 term: Fall
 location: University of Manitoba, Extended Education
 course_id: mskl-0100-pre-calculus
+importance: 1
 ---
 
 ## Course Overview

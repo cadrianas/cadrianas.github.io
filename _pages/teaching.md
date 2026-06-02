@@ -16,20 +16,20 @@ horizontal: true
   {%- assign categorized_teaching = site.teaching | where: "category", category -%}
   {%- if categorized_teaching.size > 0 %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
+  {%- assign sorted_teaching = categorized_teaching | sort: "importance" | default: empty %}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
     {%- for teaching in sorted_teaching -%}
-      {% include teaching_horizontal.liquid %}
+      {% include teaching_horizontal.liquid teaching=teaching %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for teaching in sorted_teaching -%}
-      {% include teaching.liquid %}
+      {% include teaching.liquid teaching=teaching %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -38,20 +38,20 @@ horizontal: true
 
 {%- else -%}
 <!-- Display teaching without categories -->
-  {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
+  {%- assign sorted_teaching = site.teaching | default: empty | sort: "importance" -%}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
     {%- for teaching in sorted_teaching -%}
-      {% include teaching_horizontal.liquid %}
+      {% include teaching_horizontal.liquid teaching=teaching %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for teaching in sorted_teaching -%}
-      {% include teaching.liquid %}
+      {% include teaching.liquid teaching=teaching %}
     {%- endfor %}
   </div>
   {%- endif -%}

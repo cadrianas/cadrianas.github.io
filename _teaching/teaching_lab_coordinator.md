@@ -7,6 +7,7 @@ year: 2026
 term:  Winter
 location: University of Manitoba, Department of Mathematics
 course_id: lab-coordinator
+importance: 1
 ---
 
 
