@@ -5,10 +5,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - https://github.com/julien-arino/wikipediaGATN
+  - https://github.com/cadrianas/NetworkPackage
+  - https://github.com/cadrianas/Expected_Goals_Hockey
+  - https://github.com/cadrianas/soccer_data
+  - https://github.com/cadrianas/nhl-win-probability-system
+  - https://github.com/cadrianas/GP_regression_Hockey
