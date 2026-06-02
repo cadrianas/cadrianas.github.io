@@ -1,4 +1,5 @@
 ---
+importance: 1
 layout: course
 title: Lab Coordinator
 description: Laboratory coordinator for MATH 1700 (Calulus II) and MATH 1300 (Vector Geometry and Linear Algebra)
@@ -7,8 +8,8 @@ year: 2026
 term:  Winter
 location: University of Manitoba, Department of Mathematics
 course_id: lab-coordinator
-importance: 1
 ---
+importance: 1
 
 
 

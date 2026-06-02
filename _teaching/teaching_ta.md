@@ -1,4 +1,5 @@
 ---
+importance: 1
 layout: course
 title: Teaching Assistant
 description: Teaching Assistant for multiple undergraduate mathematics courses, providing tutorial instruction, marking, and academic support.
@@ -7,8 +8,8 @@ year: 2018
 term: Multiple terms (2018-2025)
 location: University of Manitoba, Department of Mathematics
 course_id: teaching-assistant
-importance: 1
 ---
+importance: 1
 
 ## Role Overview
 
