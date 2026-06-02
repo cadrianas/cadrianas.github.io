@@ -1,18 +1,18 @@
 cv:
   name: Adriana-Stefania Ciupeanu
-  label: Postdoctoral Fellow in Mathematical Epidemiology
+  headline: Postdoctoral Fellow in Mathematical Epidemiology
   location: Winnipeg, MB, Canada
   email: cadrianas@gmail.com
-  phone_number: "+1 204 887 5030"
+  phone: "+1 204 887 5030"
   website: https://cadrianas.github.io
 
   sections:
-    Education:
+    education:
       - institution: University of Manitoba
         area: Interdisciplinary Individual Studies (Mathematics and Statistics)
-        studyType: PhD
-        startDate: 2019-09
-        endDate: 2026-02
+        degree: PhD
+        start_date: 2019-09
+        end_date: 2026-02
         location: Winnipeg, MB, Canada
         highlights:
           - "Supervisors: Dr. Julien Arino and Dr. Saman Muthukumarana"
@@ -20,31 +20,31 @@ cv:
 
       - institution: University of Manitoba
         area: Mathematics
-        studyType: Master of Science
-        startDate: 2016-09
-        endDate: 2019-08
+        degree: Master of Science
+        start_date: 2016-09
+        end_date: 2019-08
         location: Winnipeg, MB, Canada
 
       - institution: Queen's University
         area: Mathematics and Statistics
-        studyType: Master of Science
-        startDate: 2015-09
-        endDate: 2016-08
+        degree: Master of Science
+        start_date: 2015-09
+        end_date: 2016-08
         location: Kingston, ON, Canada
 
       - institution: Oxford Brookes University
         area: Mathematics
-        studyType: Bachelor of Science (Honours)
-        startDate: 2012-09
-        endDate: 2015-05
+        degree: Bachelor of Science (Honours)
+        start_date: 2012-09
+        end_date: 2015-05
         location: Oxford, UK
 
-    Experience:
+    experience:
       - company: University of Manitoba
         position: Postdoctoral Fellow
         location: Winnipeg, MB, Canada
-        startDate: 2026-05
-        endDate: 2026-10
+        start_date: 2026-05
+        end_date: 2026-10
         highlights:
           - "Department of Mathematics"
           - "Supervisor: Dr. Julien Arino"
@@ -53,8 +53,8 @@ cv:
       - company: University of Manitoba
         position: Instructor of Record
         location: Winnipeg, MB, Canada
-        startDate: 2025-09
-        endDate: 2025-12
+        start_date: 2025-09
+        end_date: 2025-12
         highlights:
           - "Pre-Calculus (MSKL 0100)"
           - "Nominated for Extended Education Instructor Excellence Award (2026)"
@@ -62,8 +62,8 @@ cv:
       - company: University of Manitoba
         position: Lab Coordinator
         location: Winnipeg, MB, Canada
-        startDate: 2023-09
-        endDate: 2026-04
+        start_date: 2023-09
+        end_date: 2026-04
         highlights:
           - "Calculus 2 (MATH 1700) and Linear Algebra 1 (MATH 1300)"
           - "Coordinated laboratory sections across multiple groups"
@@ -73,14 +73,14 @@ cv:
       - company: University of Manitoba
         position: Teaching Assistant
         location: Winnipeg, MB, Canada
-        startDate: 2016
-        endDate: 2025
+        start_date: 2016
+        end_date: 2025
         highlights:
           - "Tutorials across 10+ mathematics courses"
           - "Marking from first-year calculus to Mathematics Analysis for Engineering"
           - "Guest lectures on graph theory and network science"
 
-    Publications:
+    publications:
       - title: "Mathematical Modeling of the Dynamics of COVID-19 Variants of Concern: Asymptotic and Finite-Time Perspectives"
         authors:
           - Adriana-Stefania Ciupeanu
@@ -89,11 +89,10 @@ cv:
           - Donglin Han
           - Qun Cheng
           - Michael Y. Li
-        publisher: Infectious Disease Modelling
-        releaseDate: 2022-11
-        volume: "7"
-        issue: "4"
-        pages: "581-596"
+        journal: Infectious Disease Modelling
+        date: 2022-11
+        highlights:
+          - "Volume 7, Issue 4, pp. 581-596"
         url: https://pubmed.ncbi.nlm.nih.gov/36097594/
 
       - title: "Investigating Air Travel Network Changes in Canada, USA and Europe during COVID-19 Using Open Source Data"
@@ -102,8 +101,8 @@ cv:
           - Ashani Wickramasinghe
           - Saman Muthukumarana
           - Julien Arino
-        publisher: Research Square (Preprint)
-        releaseDate: 2023-06
+        journal: Research Square (Preprint)
+        date: 2023-06
         url: https://europepmc.org/article/PPR/PPR591103
 
       - title: "Investigation of Global and Local COVID-19 Importation Risks"
@@ -112,10 +111,10 @@ cv:
           - Stéphane Portet
           - Nicolas Bajeux
           - Adriana-Stefania Ciupeanu
-        publisher: Report to Public Health Agency of Canada
-        releaseDate: 2020
+        journal: Report to Public Health Agency of Canada
+        date: 2020
 
-    Skills:
+    skills:
       - label: Statistical Methods
         details: "Bayesian inference, MCMC, Uncertainty quantification, Sensitivity analysis (PRCC, eFAST)"
 
@@ -128,39 +127,46 @@ cv:
       - label: Data Analysis
         details: "Network analysis, Time series analysis, Temporal networks"
 
-    Awards:
-      - title: Faculty of Graduate Studies Travel Award
+    awards:
+      - name: Faculty of Graduate Studies Travel Award
         date: 2023
-        issuer: University of Manitoba
+        awarder: University of Manitoba
 
-      - title: Faculty of Graduate Studies Travel Award
+      - name: Faculty of Graduate Studies Travel Award
         date: 2022
-        issuer: University of Manitoba
+        awarder: University of Manitoba
 
-      - title: Graduate Enhancement of Tri-Agency Stipends Program
+      - name: Graduate Enhancement of Tri-Agency Stipends Program
         date: 2023
-        issuer: University of Manitoba
+        awarder: University of Manitoba
 
-      - title: International Graduate Student Entrance Scholarship
+      - name: International Graduate Student Entrance Scholarship
         date: 2020
-        issuer: University of Manitoba
+        awarder: University of Manitoba
 
-      - title: IMA Prize for Academic Excellence in Mathematics
+      - name: IMA Prize for Academic Excellence in Mathematics
         date: 2015
-        issuer: Oxford Brookes University
+        awarder: Oxford Brookes University
 
-    Service:
-      - organization: Mathematics Department, University of Manitoba
+    service:
+      - company: Mathematics Department, University of Manitoba
         position: Hiring Committee Member
-        startDate: 2024-09
-        endDate: 2025-06
+        start_date: 2024-09
+        end_date: 2025-06
 
-      - organization: University of Manitoba
+      - company: University of Manitoba
         position: Graduate Student Representative
-        startDate: 2018-09
-        endDate: 2019-06
+        start_date: 2018-09
+        end_date: 2019-06
 
-      - organization: University of Manitoba Graduate Student Association
+      - company: University of Manitoba Graduate Student Association
         position: Committee Member and Department Councillor
-        startDate: 2018-09
-        endDate: 2019-06
+        start_date: 2018-09
+        end_date: 2019-06
+
+design:
+  theme: classic
+  page:
+    size: a4
+    show_footer: false
+    show_top_note: false
