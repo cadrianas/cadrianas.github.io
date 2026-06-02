@@ -6,6 +6,7 @@ description: Material for some courses both current or recent and past.
 nav: true
 display_categories: ["University of Manitoba", "Others", "Older UM"]
 horizontal: true
+calendar_id: example
 ---
 
 <!-- pages/teaching.md -->
@@ -57,3 +58,7 @@ horizontal: true
   {%- endif -%}
 {%- endif -%}
 </div>
+
+{% if page.calendar_id %}
+  {% include calendar.liquid calendar_id=page.calendar_id %}
+{% endif %}
