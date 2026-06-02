@@ -13,8 +13,9 @@ horizontal: true
 {%- if site.enable_teaching_categories and page.display_categories %}
   <!-- Display categorized teaching -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
   {%- assign categorized_teaching = site.teaching | where: "category", category -%}
+  {%- if categorized_teaching.size > 0 %}
+  <h2 class="category">{{ category }}</h2>
   {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
@@ -31,6 +32,7 @@ horizontal: true
       {% include teaching.liquid %}
     {%- endfor %}
   </div>
+  {%- endif -%}
   {%- endif -%}
   {% endfor %}
 
