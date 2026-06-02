@@ -61,6 +61,8 @@ jobs:
 
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
+          git remote add upstream https://github.com/alshedivat/al-folio.git || true
+          git fetch upstream tag v0.16.3 || true
           git worktree add ../al-folio-baseline v0.16.3
           (cd ../al-folio-baseline && bundle install && npm ci)
 
