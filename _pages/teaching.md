@@ -2,14 +2,67 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Classes taught.
 nav: true
 nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
 {% include courses.liquid %}
+a---
+layout: page
+title: Teaching
+permalink: /teaching/
+description: Material for some courses both current or recent and past.
+nav: true
+display_categories: ["University of Manitoba", "Others", "Older UM"]
+horizontal: true
+---
+
+<!-- pages/teaching.md -->
+<div class="projects">
+{%- if site.enable_teaching_categories and page.display_categories %}
+  <!-- Display categorized teaching -->
+  {%- for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_teaching = site.teaching | where: "category", category -%}
+  {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
+  <!-- Generate cards for each teaching -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching_horizontal.liquid %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching.liquid %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+  {% endfor %}
+
+{%- else -%}
+<!-- Display teaching without categories -->
+  {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
+  <!-- Generate cards for each teaching -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching_horizontal.liquid %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching.liquid %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+{%- endif -%}
+</div>
