@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+pagination:
+  enabled: true
+  collection: projects
+  per_page: 5
 ---
 
 <!-- pages/projects.md -->

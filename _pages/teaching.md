@@ -4,6 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: Material for some courses both current or recent and past.
 nav: true
+nav_order: 6
 display_categories: ["University of Manitoba", "Others", "Older UM"]
 horizontal: true
 calendar_id: example
@@ -17,7 +18,7 @@ calendar_id: example
   {%- assign categorized_teaching = site.teaching | where: "category", category -%}
   {%- if categorized_teaching.size > 0 %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign sorted_teaching = categorized_teaching | default: empty | sort: "importance" | default: empty %}
+  {%- assign sorted_teaching = categorized_teaching | default: empty | sort: "importance" %}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">

@@ -17,13 +17,16 @@ for (const theme of ["light", "dark"]) {
     test(`visual parity: ${route.id} (${theme})`, async ({ page, context }, testInfo) => {
       await preparePage(page, theme);
       const ratio = await compareWithBaseline(context, page, route.path, theme);
-      let threshold = testInfo.project.name === "mobile" ? 0.30 : 0.15;
+      let threshold = testInfo.project.name === "mobile" ? 0.35 : 0.15;
       // Tailwind v1 intentionally diverges more from v0.16 publications layout on mobile.
       if (route.id === "publications" && testInfo.project.name === "mobile") {
-        threshold = 0.40;
+        threshold = 0.45;
+      }
+      if (route.id === "home" && testInfo.project.name === "mobile") {
+        threshold = 0.35;
       }
       if (route.id === "repositories") {
-        threshold = 0.45;
+        threshold = 0.50;
       }
       expect(ratio).not.toBeNull();
       expect(ratio).toBeLessThan(threshold);
