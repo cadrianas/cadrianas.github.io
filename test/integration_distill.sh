@@ -4,11 +4,22 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+distill_post="_posts/2018-12-22-distill.md"
+created_distill_post=false
 
 cleanup() {
+  if [[ "${created_distill_post}" == true ]]; then
+    rm -f "${distill_post}"
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+mkdir -p _posts
+if [[ ! -f "${distill_post}" ]]; then
+  cp test/fixtures/distill/post.md "${distill_post}"
+  created_distill_post=true
+fi
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
@@ -18,7 +29,7 @@ giscus:
   category_id: DIC_kwDOExample
 YAML
 
-bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
+ruby -EUTF-8:UTF-8 "$(command -v bundle)" exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
 distill_page="${tmp_site}/blog/2021/distill/index.html"
 

@@ -31,7 +31,7 @@ imagemagick:
   enabled: false
 YAML
 
-JEKYLL_ENV=production bundle exec jekyll build \
+JEKYLL_ENV=production ruby -EUTF-8:UTF-8 "$(command -v bundle)" exec jekyll build \
   --config "_config.yml,${override_file}" -d "${site}" >/dev/null
 
 tailwind_css="${site}/assets/css/tailwind.css"
