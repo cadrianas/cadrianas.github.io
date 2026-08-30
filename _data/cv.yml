@@ -1,166 +1,137 @@
 cv:
   name: Adriana-Stefania Ciupeanu
-  headline: Postdoctoral Fellow in Mathematical Epidemiology
-  location: Winnipeg, MB, Canada
+  label: Statistician, Scientific Machine-Learning Researcher, and Mathematical Modeller
+  summary: Bayesian inference, neural surrogate modelling, network science, and reproducible software for complex biological and health systems.
   website: https://cadrianas.github.io
+  social_networks:
+    - network: GitHub
+      username: cadrianas
 
   sections:
-    education:
+    Experience:
+      - company: University of Manitoba
+        position: Postdoctoral Fellow, Department of Mathematics
+        location: Winnipeg, MB, Canada
+        start_date: 2026-05
+        end_date: 2026-10
+        highlights:
+          - Lead the machine-learning extension of a global metapopulation model for forecasting pathogen-importation risk across 238 countries and territories.
+          - Conceived a mechanistically informed neural-surrogate methodology for likelihood-free Bayesian inference and probabilistic forecasting.
+          - Designed temporally conditioned neural surrogates and comparative graph-attention and recurrent models using transportation-network and location-level features.
+          - Built an end-to-end Python pipeline for simulation, sampling, PyTorch training, SMC-ABC inference, uncertainty propagation, validation, and benchmarking.
+
+      - company: University of Manitoba
+        position: Instructor, Mathematical Skills (MSKL 0100)
+        location: Winnipeg, MB, Canada
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - Held full responsibility for course delivery, assessment design, grading, learning materials, feedback, and student support.
+          - Nominated for the Extended Education Instructor Excellence Award in 2026.
+
+      - company: University of Manitoba
+        position: Lead Teaching Assistant and Guest Lecturer, Mathematics of Data Science
+        location: Winnipeg, MB, Canada
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - Delivered guest lectures on graph theory and network science and developed the associated teaching materials.
+          - Led grading of programming assignments and contributed datasets and revisions to course assessments.
+
+      - company: University of Manitoba
+        position: Undergraduate Research Mentor
+        location: Winnipeg, MB, Canada
+        start_date: 2026
+        end_date: present
+        highlights:
+          - Guide development of a hybrid gravity-graph neural network model of inter-city mobility for spatial epidemic modelling.
+          - Provide methodological direction in graph neural networks, mobility modelling, experimental design, validation, and research communication.
+
+    Education:
       - institution: University of Manitoba
-        area: Interdisciplinary Individual Studies (Mathematics and Statistics)
+        area: Interdisciplinary Individual Studies - Mathematics and Statistics
         degree: PhD
-        start_date: 2019-09
-        end_date: 2026-02
+        start_date: 2019
+        end_date: 2026
         location: Winnipeg, MB, Canada
         highlights:
           - "Supervisors: Dr. Julien Arino and Dr. Saman Muthukumarana"
-          - "Thesis: Mathematical and statistical modelling during a pandemic event"
+          - "Dissertation: Mathematical and statistical modelling during a pandemic event"
 
       - institution: University of Manitoba
         area: Mathematics
         degree: Master of Science
-        start_date: 2016-09
-        end_date: 2019-08
+        start_date: 2016
+        end_date: 2020
         location: Winnipeg, MB, Canada
 
       - institution: Queen's University
         area: Mathematics and Statistics
-        degree: Master of Science
-        start_date: 2015-09
-        end_date: 2016-08
+        degree: Master of Science (Course-Based)
+        start_date: 2015
+        end_date: 2016
         location: Kingston, ON, Canada
 
       - institution: Oxford Brookes University
         area: Mathematics
         degree: Bachelor of Science (Honours)
-        start_date: 2012-09
-        end_date: 2015-05
+        start_date: 2012
+        end_date: 2015
         location: Oxford, UK
 
-    experience:
-      - company: University of Manitoba
-        position: Postdoctoral Fellow
-        location: Winnipeg, MB, Canada
-        start_date: 2026-05
-        end_date: 2026-10
-        highlights:
-          - "Department of Mathematics"
-          - "Supervisor: Dr. Julien Arino"
-          - "Research: Mathematical and statistical modelling of infectious disease dynamics"
-
-      - company: University of Manitoba
-        position: Instructor of Record
-        location: Winnipeg, MB, Canada
-        start_date: 2025-09
-        end_date: 2025-12
-        highlights:
-          - "Pre-Calculus (MSKL 0100)"
-          - "Nominated for Extended Education Instructor Excellence Award (2026)"
-
-      - company: University of Manitoba
-        position: Lab Coordinator
-        location: Winnipeg, MB, Canada
-        start_date: 2023-09
-        end_date: 2026-04
-        highlights:
-          - "Calculus 2 (MATH 1700) and Linear Algebra 1 (MATH 1300)"
-          - "Coordinated laboratory sections across multiple groups"
-          - "Managed TA duties and scheduling"
-          - "Oversaw grading quality assurance and designed quiz versions"
-
-      - company: University of Manitoba
-        position: Teaching Assistant
-        location: Winnipeg, MB, Canada
-        start_date: 2016
-        end_date: 2025
-        highlights:
-          - "Tutorials across 10+ mathematics courses"
-          - "Marking from first-year calculus to Mathematics Analysis for Engineering"
-          - "Guest lectures on graph theory and network science"
-
-    publications:
+    Publications:
       - title: "Mathematical Modeling of the Dynamics of COVID-19 Variants of Concern: Asymptotic and Finite-Time Perspectives"
-        authors:
-          - Adriana-Stefania Ciupeanu
-          - Marie Varughese
-          - Weston C. Roda
-          - Donglin Han
-          - Qun Cheng
-          - Michael Y. Li
-        journal: Infectious Disease Modelling
-        date: 2022-11
-        highlights:
-          - "Volume 7, Issue 4, pp. 581-596"
-        url: https://pubmed.ncbi.nlm.nih.gov/36097594/
-
-      - title: "Investigating Air Travel Network Changes in Canada, USA and Europe during COVID-19 Using Open Source Data"
-        authors:
-          - Adriana-Stefania Ciupeanu
-          - Ashani Wickramasinghe
-          - Saman Muthukumarana
-          - Julien Arino
-        journal: Research Square (Preprint)
-        date: 2023-06
-        url: https://europepmc.org/article/PPR/PPR591103
-
-      - title: "Investigation of Global and Local COVID-19 Importation Risks"
-        authors:
-          - Julien Arino
-          - Stéphane Portet
-          - Nicolas Bajeux
-          - Adriana-Stefania Ciupeanu
-        journal: Report to Public Health Agency of Canada
-        date: 2020
-
-    skills:
-      - label: Statistical Methods
-        details: "Bayesian inference, MCMC, Uncertainty quantification, Sensitivity analysis (PRCC, eFAST)"
-
-      - label: Mathematical Modelling
-        details: "ODE compartmental models, CTMC simulations, Metapopulation models"
-
-      - label: Programming
-        details: "Python, R, Stan, LaTeX"
-
-      - label: Data Analysis
-        details: "Network analysis, Time series analysis, Temporal networks"
-
-    awards:
-      - name: Faculty of Graduate Studies Travel Award
-        date: 2023
-        awarder: University of Manitoba
-
-      - name: Faculty of Graduate Studies Travel Award
+        publisher: Infectious Disease Modelling
+        summary: Adriana-Stefania Ciupeanu, Marie Varughese, Weston C. Roda, Donglin Han, Qun Cheng, and Michael Y. Li
         date: 2022
-        awarder: University of Manitoba
+        url: https://doi.org/10.1016/j.idm.2022.08.006
 
-      - name: Graduate Enhancement of Tri-Agency Stipends Program
+      - title: Investigating Air Travel Network Changes in Canada, USA and Europe during COVID-19 Using Open Source Data
+        publisher: Research Square (Preprint)
+        summary: Adriana-Stefania Ciupeanu, Ashani Wickramasinghe, Saman Muthukumarana, and Julien Arino
         date: 2023
+        url: https://doi.org/10.21203/rs.3.rs-2426208/v1
+
+      - title: Preventing HPV-Induced Cervical Cancer in Alberta, Canada
+        publisher: Submitted to the Canadian Journal of Public Health
+        summary: Tasfia Akhter, Adriana-Stefania Ciupeanu, Weston C. Roda, Michael Y. Li, Sheila S. Plitt, and Caitlin L. Charlton
+        date: 2026
+
+    Skills:
+      - name: Programming and scientific computing
+        keywords: [Python, R, Git, GitHub, LaTeX, PyTorch, PyTorch Geometric, NumPy, SciPy, pandas, scikit-learn]
+
+      - name: Bayesian and statistical methods
+        keywords: [MCMC, SMC-ABC, parameter estimation, identifiability analysis, uncertainty quantification, model comparison, PRCC, eFAST]
+
+      - name: Machine learning
+        keywords: [graph attention networks, LSTM and GRU models, neural surrogate modelling, mechanistically informed machine learning]
+
+      - name: Mathematical and network modelling
+        keywords: [ODE models, metapopulation models, temporal and spatial networks, NetworkX, igraph]
+
+      - name: Research software
+        keywords: [Python package development, automated testing, documentation, version control, reproducible computational workflows]
+
+    Awards:
+      - title: Extended Education Instructor Excellence Award nomination
+        date: 2026
         awarder: University of Manitoba
 
-      - name: International Graduate Student Entrance Scholarship
-        date: 2020
+      - title: Faculty of Graduate Studies Travel Award
+        date: 2022-2024
         awarder: University of Manitoba
 
-      - name: IMA Prize for Academic Excellence in Mathematics
+      - title: IMA Prize for Academic Excellence in Mathematics
         date: 2015
         awarder: Oxford Brookes University
 
-    service:
-      - company: Mathematics Department, University of Manitoba
-        position: Hiring Committee Member
-        start_date: 2024-09
-        end_date: 2025-06
+    Service:
+      - label: Faculty Hiring Committee
+        details: Graduate student representative, Department of Mathematics, University of Manitoba (2024-2025)
 
-      - company: University of Manitoba
-        position: Graduate Student Representative
-        start_date: 2018-09
-        end_date: 2019-06
-
-      - company: University of Manitoba Graduate Student Association
-        position: Committee Member and Department Councillor
-        start_date: 2018-09
-        end_date: 2019-06
+      - label: Department and Graduate Student Association
+        details: Graduate student representative, committee member, and department councillor, University of Manitoba (2018-2019)
 
 design:
   theme: classic
