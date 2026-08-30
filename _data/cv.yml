@@ -81,18 +81,37 @@ cv:
 
     Publications:
       - title: "Mathematical Modeling of the Dynamics of COVID-19 Variants of Concern: Asymptotic and Finite-Time Perspectives"
+        authors:
+          - Adriana-Stefania Ciupeanu
+          - Marie Varughese
+          - Weston C. Roda
+          - Donglin Han
+          - Qun Cheng
+          - Michael Y. Li
         publisher: Infectious Disease Modelling
         summary: Adriana-Stefania Ciupeanu, Marie Varughese, Weston C. Roda, Donglin Han, Qun Cheng, and Michael Y. Li
         date: 2022
         url: https://doi.org/10.1016/j.idm.2022.08.006
 
       - title: Investigating Air Travel Network Changes in Canada, USA and Europe during COVID-19 Using Open Source Data
+        authors:
+          - Adriana-Stefania Ciupeanu
+          - Ashani Wickramasinghe
+          - Saman Muthukumarana
+          - Julien Arino
         publisher: Research Square (Preprint)
         summary: Adriana-Stefania Ciupeanu, Ashani Wickramasinghe, Saman Muthukumarana, and Julien Arino
         date: 2023
         url: https://doi.org/10.21203/rs.3.rs-2426208/v1
 
       - title: Preventing HPV-Induced Cervical Cancer in Alberta, Canada
+        authors:
+          - Tasfia Akhter
+          - Adriana-Stefania Ciupeanu
+          - Weston C. Roda
+          - Michael Y. Li
+          - Sheila S. Plitt
+          - Caitlin L. Charlton
         publisher: Submitted to the Canadian Journal of Public Health
         summary: Tasfia Akhter, Adriana-Stefania Ciupeanu, Weston C. Roda, Michael Y. Li, Sheila S. Plitt, and Caitlin L. Charlton
         date: 2026

@@ -9,6 +9,7 @@ on:
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
+      - "bin/prepare_rendercv.py"
   workflow_call:
   workflow_dispatch:
 permissions:
@@ -42,8 +43,11 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+          rendercv_input="_data/.rendercv-cv.yml"
+          trap 'rm -f "$rendercv_input"' EXIT
+          python bin/prepare_rendercv.py "$cv_file" "$rendercv_input"
+          rendercv render "$rendercv_input" --settings "$settings"
+          find assets/rendercv/rendercv_output -maxdepth 1 -type f -name '*.typ' -delete
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -54,5 +58,9 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
+          if git diff --cached --quiet; then
+            echo "Rendered CV is already up to date."
+            exit 0
+          fi
           git commit -m "chore: render the latest CV"
           git push
